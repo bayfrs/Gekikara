@@ -9,8 +9,7 @@ buat bot terlebih dahulu <br/>
 - library ```1Yo6vQRwjG5Gl9jeEF0g2tBTUa0XN5MyT4G_HeDpRr9DvabxhRcSdhPNj```
 
 
-### Edit file
-```core.gs```<br/>
+### Edit file ```core.gs```
 ```B_O_T__T_O_K_E_N``` Ganti dengan token bot kamu<br/>
 ```W_E_B__H_O_O_K``` Ganti dengan link hasil deploy<br/>
 ```ts
@@ -56,6 +55,6 @@ bot.hears(/hello/i, ctx => ctx.reply('Hello too!'));
 bot.hears(/^\/say (.*)/i, ctx => ctx.replyIt(ctx.match[1]));
 ```
 ## Docs
-- lumpia.js.org
+- [lumpia.js.org](lumpia.js.org)
 ## Community
 - Telegram Group @botIndonesia
